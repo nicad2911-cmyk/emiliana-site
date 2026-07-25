@@ -9,18 +9,20 @@
 <body>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   <script>
-    // Автоматический перехват для входа через токен на GitHub Pages
-    if (!window.location.hash && !localStorage.getItem('decap-cms-user')) {
-      const token = prompt('Вставьте ваш Personal Access Token (ghp_...):');
-      if (token) {
-        const userData = {
-          token: token.trim(),
-          backendName: 'github'
-        };
-        localStorage.setItem('decap-cms-user', JSON.stringify(userData));
-        window.location.reload();
+    // Перехватываем стандартный логин Decap CMS и подставляем токен напрямую в localStorage
+    (function() {
+      const stored = localStorage.getItem('decap-cms-user');
+      if (!stored) {
+        const token = prompt("Введи твой Personal Access Token из GitHub (ghp_...):");
+        if (token && token.trim().length > 0) {
+          const user = {
+            token: token.trim(),
+            backendName: 'github'
+          };
+          localStorage.setItem('decap-cms-user', JSON.stringify(user));
+        }
       }
-    }
+    })();
   </script>
 </body>
 </html>
