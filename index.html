@@ -1,0 +1,1263 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emiliana Parati — Boya, Divar Kağızı, Qapı və Parket | Bakı</title>
+<meta name="description" content="Emiliana Parati — 2007-ci ildən Bakıda boya, divar kağızı, interyer qapıları və parket üzrə materiallar ateliyesi. Kurasiya olunmuş çeşidlər, fərdi rəng studiyası, ölçü xidməti.">
+<meta name="theme-color" content="#EDE7DD">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%231F1C17'/%3E%3Ctext x='50' y='68' font-family='Georgia,serif' font-size='58' fill='%23EDE7DD' text-anchor='middle'%3EE%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+<!-- SEO: structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HomeGoodsStore",
+  "name": "Emiliana Parati",
+  "description": "Materials atelier for paint, wallpaper, interior doors and parquet in Baku, Azerbaijan.",
+  "foundingDate": "2007",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "28 Nizami Street",
+    "addressLocality": "Baku",
+    "addressCountry": "AZ"
+  },
+  "telephone": "+994-12-555-04-04",
+  "email": "hello@emilianaparati.az",
+  "openingHours": "Mo-Sa 10:00-19:00",
+  "priceRange": "$$$"
+}
+</script>
+
+<style>
+/* ============================= RESET ============================= */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto;}
+  *,*::before,*::after{animation-duration:0.001ms !important;animation-iteration-count:1 !important;transition-duration:0.001ms !important;scroll-behavior:auto !important;}
+}
+img,svg{display:block;max-width:100%;}
+a{color:inherit;text-decoration:none;}
+button,input,select,textarea{font:inherit;color:inherit;background:none;border:none;}
+ul{list-style:none;}
+h1,h2,h3,h4{font-weight:inherit;}
+
+/* ============================= TOKENS ============================= */
+:root{
+  --plaster:#EDE7DD;
+  --plaster-2:#E4DDCE;
+  --ink:#1F1C17;
+  --ink-soft:#3A352C;
+  --verde:#3C4A3B;
+  --verde-deep:#2A342A;
+  --brass:#A9793B;
+  --brass-light:#C79A5C;
+  --terra:#8B5546;
+  --stone:#C7BDA8;
+  --stone-line: rgba(31,28,23,0.14);
+  --cream-card:#F7F3EA;
+  --paper:#FAF8F3;
+
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Manrope', -apple-system, sans-serif;
+
+  --container: 1240px;
+  --pad: clamp(20px, 5vw, 64px);
+  --radius-sm: 4px;
+  --radius-md: 10px;
+
+  --ease: cubic-bezier(.16,.8,.3,1);
+}
+
+/* ============================= BASE ============================= */
+body{
+  font-family: var(--font-body);
+  background: var(--plaster);
+  color: var(--ink);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+.container{
+  width:100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--pad);
+}
+.skip-link{
+  position:absolute; left:-999px; top:0; background:var(--ink); color:var(--paper);
+  padding:12px 20px; z-index:999; border-radius:0 0 6px 0;
+}
+.skip-link:focus{ left:0; }
+
+:focus-visible{ outline: 2px solid var(--brass); outline-offset: 3px; }
+
+.eyebrow{
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--brass);
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.eyebrow::before{
+  content:"";
+  width:22px; height:1px; background: var(--brass);
+  display:inline-block;
+}
+
+h1,h2,h3{ font-family: var(--font-display); color: var(--ink); }
+h2{ font-size: clamp(30px, 4vw, 46px); font-weight:500; line-height:1.12; letter-spacing:-0.01em; }
+em{ font-style: italic; color: var(--verde); font-weight:500; }
+
+p.lede{ font-size: clamp(16px,1.6vw,18px); color: var(--ink-soft); max-width: 46ch; }
+
+.btn{
+  display:inline-flex; align-items:center; gap:10px;
+  padding: 15px 26px;
+  font-weight:600; font-size:14px;
+  border-radius: 2px;
+  cursor:pointer;
+  transition: transform .45s var(--ease), background .3s ease, color .3s ease, box-shadow .3s ease;
+  white-space:nowrap;
+}
+.btn svg{ width:14px; height:14px; transition: transform .35s var(--ease); }
+.btn:hover svg{ transform: translateX(4px); }
+.btn-primary{ background: var(--ink); color: var(--paper); }
+.btn-primary:hover{ background: var(--verde); box-shadow: 0 10px 26px -8px rgba(60,74,59,.55); transform: translateY(-2px); }
+.btn-ghost{ background: transparent; color: var(--ink); border:1px solid var(--stone-line); }
+.btn-ghost:hover{ border-color: var(--ink); transform: translateY(-2px); }
+
+section{ position:relative; }
+.section-pad{ padding: clamp(72px, 10vw, 140px) 0; }
+.section-head{
+  display:flex; justify-content:space-between; align-items:flex-end; gap:40px;
+  margin-bottom: clamp(40px,6vw,72px);
+  flex-wrap:wrap;
+}
+.section-head h2{ margin-top:14px; }
+
+/* reveal-on-scroll */
+.reveal{ opacity:0; transform: translateY(28px); transition: opacity .9s var(--ease), transform .9s var(--ease); }
+.reveal.is-visible{ opacity:1; transform:none; }
+.reveal-stagger > *{ opacity:0; transform: translateY(24px); transition: opacity .8s var(--ease), transform .8s var(--ease); }
+.reveal-stagger.is-visible > *{ opacity:1; transform:none; }
+.reveal-stagger.is-visible > *:nth-child(1){transition-delay:.05s;}
+.reveal-stagger.is-visible > *:nth-child(2){transition-delay:.14s;}
+.reveal-stagger.is-visible > *:nth-child(3){transition-delay:.23s;}
+.reveal-stagger.is-visible > *:nth-child(4){transition-delay:.32s;}
+.reveal-stagger.is-visible > *:nth-child(5){transition-delay:.41s;}
+.reveal-stagger.is-visible > *:nth-child(6){transition-delay:.50s;}
+.reveal-stagger.is-visible > *:nth-child(7){transition-delay:.59s;}
+.reveal-stagger.is-visible > *:nth-child(8){transition-delay:.68s;}
+
+/* ============================= NAV ============================= */
+.nav{
+  position:fixed; top:0; left:0; right:0; z-index:100;
+  padding: 26px 0;
+  transition: padding .4s var(--ease), background .4s ease, box-shadow .4s ease, border-color .4s ease;
+  border-bottom: 1px solid transparent;
+}
+.nav.scrolled{
+  padding: 14px 0;
+  background: rgba(237,231,221,0.86);
+  backdrop-filter: blur(14px) saturate(140%);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  border-bottom-color: var(--stone-line);
+}
+.nav .container{ display:flex; align-items:center; justify-content:space-between; gap:24px; }
+.wordmark{ font-family: var(--font-display); font-size:21px; letter-spacing:0.01em; font-weight:600; }
+.wordmark span{ color:var(--brass); font-style:italic; font-weight:500; }
+.logo-link{ display:flex; align-items:center; line-height:0; }
+.logo-img{ max-height:45px; width:auto; display:block; vertical-align:middle; }
+.nav-links{ display:flex; align-items:center; gap:34px; }
+.nav-links a{
+  font-size:14px; font-weight:600; position:relative; padding:4px 0; color:var(--ink-soft);
+  transition: color .25s ease;
+}
+.nav-links a::after{
+  content:""; position:absolute; left:0; bottom:0; height:1px; width:0; background:var(--ink);
+  transition: width .35s var(--ease);
+}
+.nav-links a:hover{ color:var(--ink); }
+.nav-links a:hover::after{ width:100%; }
+
+.nav-right{ display:flex; align-items:center; gap:22px; }
+.lang-switch{ display:flex; border:1px solid var(--stone-line); border-radius:20px; padding:3px; position:relative; }
+.lang-switch button{
+  font-size:12px; font-weight:700; letter-spacing:.03em; padding:6px 11px; border-radius:16px; position:relative; z-index:2;
+  color: var(--ink-soft); transition: color .3s ease;
+}
+.lang-switch button.active{ color: var(--paper); }
+.lang-switch .pill{
+  position:absolute; top:3px; left:3px; height:calc(100% - 6px); width:34px; background:var(--ink); border-radius:16px;
+  transition: transform .4s var(--ease); z-index:1;
+}
+.nav-cta{ display:inline-flex; }
+.menu-toggle{ display:none; width:36px; height:36px; align-items:center; justify-content:center; cursor:pointer; }
+.menu-toggle span, .menu-toggle::before, .menu-toggle::after{ content:""; display:block; width:22px; height:1.5px; background:var(--ink); position:relative; transition: transform .3s ease, opacity .3s ease; }
+.menu-toggle{ flex-direction:column; gap:5px; }
+
+/* ============================= HERO ============================= */
+.hero{ padding: 150px 0 0; overflow:hidden; }
+.hero-grid{ display:grid; grid-template-columns: 1.05fr 0.95fr; gap: 48px; align-items:center; }
+.hero-copy h1{
+  font-size: clamp(38px, 5.6vw, 68px); font-weight:500; line-height:1.04; letter-spacing:-0.015em; margin: 18px 0 24px;
+}
+.hero-copy .eyebrow{ opacity:0; animation: rise .8s var(--ease) .1s forwards; }
+.hero-copy h1{ opacity:0; animation: rise .9s var(--ease) .25s forwards; }
+.hero-copy .lede{ opacity:0; animation: rise .9s var(--ease) .42s forwards; margin-bottom: 34px; }
+.hero-actions{ display:flex; gap:16px; flex-wrap:wrap; opacity:0; animation: rise .9s var(--ease) .56s forwards; margin-bottom:40px; }
+.hero-since{ display:flex; align-items:center; gap:14px; opacity:0; animation: rise .9s var(--ease) .7s forwards; }
+.hero-since .num{ font-family: var(--font-display); font-style:italic; font-size:26px; color:var(--verde); }
+.hero-since .txt{ font-size:13px; color:var(--ink-soft); line-height:1.35; }
+.hero-since .divider{ width:1px; height:34px; background: var(--stone-line); }
+
+@keyframes rise{ from{ opacity:0; transform: translateY(22px);} to{ opacity:1; transform:none; } }
+
+.hero-visual{ position:relative; }
+
+/* ============================= HERO SLIDESHOW ============================= */
+.hero-slideshow{
+  position:relative;
+  width:100%;
+  aspect-ratio: 560/640;
+  border-radius: 14px;
+  overflow:hidden;
+  opacity:0; animation: fadeScale 1.1s var(--ease) .3s forwards;
+  box-shadow: 0 30px 60px -24px rgba(31,28,23,.4);
+}
+.hero-slideshow .slide{
+  position:absolute; inset:0;
+  background-size:cover; background-position:center;
+  opacity:0;
+  animation: heroFade 16s infinite;
+}
+.hero-slideshow .slide:nth-child(1){ animation-delay: 0s; }
+.hero-slideshow .slide:nth-child(2){ animation-delay: 4s; }
+.hero-slideshow .slide:nth-child(3){ animation-delay: 8s; }
+.hero-slideshow .slide:nth-child(4){ animation-delay: 12s; }
+@keyframes heroFade{
+  0%   { opacity:0; }
+  4%   { opacity:1; }
+  22%  { opacity:1; }
+  28%  { opacity:0; }
+  100% { opacity:0; }
+}
+@media (prefers-reduced-motion: reduce){
+  .hero-slideshow .slide{ animation:none; opacity:0; }
+  .hero-slideshow .slide:first-child{ opacity:1; }
+}
+
+@keyframes fadeScale{ from{ opacity:0; transform: scale(.97);} to{ opacity:1; transform:none; } }
+
+.hero-offer-row{
+  margin-top: clamp(50px,7vw,86px);
+  border-top:1px solid var(--stone-line);
+  padding: 26px 0;
+}
+.hero-offer-row .container{ display:flex; flex-wrap:wrap; gap: 10px 40px; align-items:center; justify-content:space-between; }
+.offer-list{ display:flex; flex-wrap:wrap; gap: 10px 40px; }
+.offer-list li{ font-family: var(--font-display); font-size: clamp(16px,2vw,20px); color: var(--ink-soft); display:flex; align-items:center; gap:10px; }
+.offer-list li::before{ content:""; width:6px; height:6px; border-radius:50%; background: var(--brass); display:inline-block; }
+.offer-tag{ font-size:12px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--stone); }
+
+/* Swatch strip */
+.swatch-strip{ display:flex; gap:14px; }
+.swatch{
+  border-radius: 3px; position:relative; overflow:hidden; flex:1;
+  box-shadow: 0 18px 40px -18px rgba(31,28,23,.35);
+}
+.swatch-paint{ background: radial-gradient(circle at 32% 28%, #6C7C67 0%, var(--verde) 55%, var(--verde-deep) 100%); }
+.swatch-wallpaper{
+  background-color: var(--cream-card);
+  background-image: radial-gradient(circle at 8px 8px, rgba(169,121,59,.55) 1.6px, transparent 2px);
+  background-size: 16px 16px;
+}
+.swatch-door{
+  background: repeating-linear-gradient(95deg, #6E4430 0px 3px, #7C4E36 3px 7px, #663D2A 7px 9px, #86583F 9px 14px);
+}
+.swatch-parquet{
+  background-color:#B8895A;
+  background-image:
+    repeating-linear-gradient(45deg, rgba(31,28,23,.16) 0 2px, transparent 2px 18px),
+    repeating-linear-gradient(-45deg, rgba(250,248,243,.22) 0 2px, transparent 2px 18px);
+}
+
+/* ============================= ABOUT ============================= */
+.about-grid{ display:grid; grid-template-columns: 0.85fr 1.15fr; gap: clamp(30px,6vw,90px); align-items:start; }
+.about-visual{ position:sticky; top:120px; }
+.about-visual .frame{
+  aspect-ratio: 4/5; border-radius: 4px; overflow:hidden; position:relative;
+  background: linear-gradient(155deg, var(--verde-deep), var(--verde) 60%, #566a55 100%);
+}
+.about-visual .frame::after{
+  content:""; position:absolute; inset:0;
+  background-image: repeating-linear-gradient(115deg, rgba(250,248,243,.05) 0 2px, transparent 2px 22px);
+}
+.about-visual .frame-caption{
+  position:absolute; left:26px; bottom:26px; right:26px; color: var(--paper);
+}
+.about-visual .frame-caption .yr{ font-family: var(--font-display); font-style:italic; font-size:44px; line-height:1; }
+.about-visual .frame-caption .lbl{ font-size:12px; letter-spacing:.1em; text-transform:uppercase; opacity:.75; margin-top:8px; }
+
+.about-copy h2{ margin-bottom:22px; }
+.about-copy p{ color: var(--ink-soft); margin-bottom:18px; max-width:60ch; }
+.about-quote{
+  font-family: var(--font-display); font-style:italic; font-size: clamp(21px,2.4vw,27px); color: var(--ink);
+  border-left: 2px solid var(--brass); padding: 4px 0 4px 24px; margin: 30px 0;
+}
+.about-stats{ display:flex; gap: clamp(24px,4vw,54px); margin-top:38px; padding-top:30px; border-top:1px solid var(--stone-line); flex-wrap:wrap; }
+.about-stats .stat .n{ font-family: var(--font-display); font-size: clamp(28px,3vw,36px); color:var(--verde); }
+.about-stats .stat .l{ font-size:13px; color: var(--ink-soft); margin-top:4px; }
+
+/* ============================= PRODUCTS ============================= */
+.products-grid{ display:grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.p-card{
+  position:relative; border-radius: 6px; overflow:hidden; height: 420px;
+  display:flex; flex-direction:column; justify-content:flex-end;
+  cursor:pointer;
+  transition: transform .5s var(--ease), box-shadow .5s var(--ease);
+}
+.p-card:hover{ transform: translateY(-8px); box-shadow: 0 30px 50px -20px rgba(31,28,23,.4); }
+.p-texture{ position:absolute; inset:0; }
+.p-card:nth-child(1) .p-texture{ background: radial-gradient(circle at 30% 25%, #6C7C67, var(--verde) 55%, var(--verde-deep) 100%); }
+.p-card:nth-child(2) .p-texture{
+  background-color:#E7DEC9;
+  background-image: radial-gradient(circle at 9px 9px, rgba(139,85,70,.5) 2px, transparent 2.4px), radial-gradient(circle at 20px 20px, rgba(169,121,59,.35) 1.6px, transparent 2px);
+  background-size: 30px 30px, 30px 30px;
+}
+.p-card:nth-child(3) .p-texture{ background: repeating-linear-gradient(95deg, #5C3623 0px 4px, #6E4430 4px 9px, #4E2D1D 9px 11px, #7C4E36 11px 17px); }
+.p-card:nth-child(4) .p-texture{
+  background-color:#B8895A;
+  background-image:
+    repeating-linear-gradient(45deg, rgba(31,28,23,.18) 0 2px, transparent 2px 20px),
+    repeating-linear-gradient(-45deg, rgba(250,248,243,.24) 0 2px, transparent 2px 20px);
+}
+.p-card::before{
+  content:""; position:absolute; inset:0;
+  background: linear-gradient(to top, rgba(20,18,14,.88) 0%, rgba(20,18,14,.42) 46%, rgba(20,18,14,0) 72%);
+  z-index:1;
+}
+.p-peel{
+  position:absolute; top:0; right:0; width:56px; height:56px; z-index:3;
+  background: var(--paper);
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+  transition: width .45s var(--ease), height .45s var(--ease);
+  box-shadow: -6px 6px 14px -4px rgba(0,0,0,.25);
+}
+.p-card:hover .p-peel{ width:92px; height:92px; }
+.p-body{ position:relative; z-index:2; padding: 26px 26px 30px; color: var(--paper); }
+.p-index{ font-size:11px; letter-spacing:.14em; text-transform:uppercase; opacity:.7; margin-bottom:10px; display:block; }
+.p-body h3{ font-family: var(--font-display); font-size:26px; font-weight:500; margin-bottom:10px; }
+.p-body p{ font-size:14px; line-height:1.55; opacity:.88; max-width:36ch; margin-bottom:18px; height:0; overflow:hidden; opacity:0; transition: height .5s var(--ease), opacity .4s ease .05s, margin .5s ease; }
+.p-card:hover .p-body p{ height:5.4em; opacity:.88; }
+.p-link{ font-size:13px; font-weight:700; display:inline-flex; align-items:center; gap:8px; }
+.p-link svg{ width:13px; height:13px; transition: transform .35s var(--ease); }
+.p-card:hover .p-link svg{ transform: translateX(4px); }
+
+/* ============================= WHY US ============================= */
+.why-wrap{ display:grid; grid-template-columns: 0.8fr 1.2fr; gap:40px; align-items:flex-end; margin-bottom:48px; }
+.why-deck{ display:grid; grid-template-columns: repeat(5, 1fr); gap:16px; }
+.why-chip{
+  background: var(--cream-card); border-radius: 4px; padding: 30px 22px; min-height: 250px;
+  display:flex; flex-direction:column; justify-content:space-between;
+  border-top: 3px solid var(--stone);
+  transition: transform .45s var(--ease), border-color .45s ease, background .45s ease;
+}
+.why-chip:hover{ transform: translateY(-8px); background: var(--ink); color: var(--paper); }
+.why-chip:hover h3, .why-chip:hover p{ color: var(--paper); }
+.why-chip:nth-child(1){ border-color: var(--verde); }
+.why-chip:nth-child(2){ border-color: var(--brass); }
+.why-chip:nth-child(3){ border-color: var(--terra); }
+.why-chip:nth-child(4){ border-color: var(--verde); }
+.why-chip:nth-child(5){ border-color: var(--brass); }
+.why-chip .mk{ font-family: var(--font-display); font-style:italic; font-size:15px; color: var(--brass); }
+.why-chip h3{ font-family: var(--font-display); font-size:21px; font-weight:500; margin:18px 0 10px; line-height:1.2; }
+.why-chip p{ font-size:13.5px; color: var(--ink-soft); line-height:1.55; }
+
+/* ============================= BRANDS ============================= */
+.brands-head{ text-align:center; max-width:640px; margin:0 auto clamp(44px,6vw,70px); }
+.brands-head .eyebrow{ justify-content:center; }
+.brands-head .eyebrow::before{ display:none; }
+.brands-head h2{ margin: 14px 0 14px; }
+.brands-head p{ color: var(--ink-soft); margin:0 auto; }
+.brands-grid{ display:grid; grid-template-columns: repeat(4, 1fr); border-top:1px solid var(--stone-line); border-left:1px solid var(--stone-line); }
+.brand-cell{
+  border-right:1px solid var(--stone-line); border-bottom:1px solid var(--stone-line);
+  min-height:140px; display:flex; align-items:center; justify-content:center; padding:20px;
+  filter: grayscale(1) contrast(0.9); opacity:.55;
+  transition: filter .4s ease, opacity .4s ease, background .4s ease;
+}
+.brand-cell:hover{ filter:none; opacity:1; background: var(--cream-card); }
+.brand-cell .bn{ font-family: var(--font-display); text-align:center; font-weight:500; letter-spacing:.01em; }
+.brand-cell .bn small{ display:block; font-family: var(--font-body); font-size:10px; letter-spacing:.14em; text-transform:uppercase; color:var(--stone); font-weight:700; margin-top:6px; }
+
+/* ============================= GALLERY ============================= */
+.filters{ display:flex; gap:8px; flex-wrap:wrap; margin-bottom:36px; }
+.filter-btn{
+  padding:9px 18px; border-radius:20px; font-size:13px; font-weight:600; border:1px solid var(--stone-line); color:var(--ink-soft);
+  transition: all .3s ease;
+}
+.filter-btn.active, .filter-btn:hover{ background: var(--ink); color: var(--paper); border-color: var(--ink); }
+.gallery-grid{ display:grid; grid-template-columns: repeat(4, 1fr); gap:18px; }
+.g-tile{ border-radius:5px; overflow:hidden; position:relative; grid-column: span 2; aspect-ratio: 4/3; cursor:pointer; transition: opacity .4s ease, transform .3s ease; }
+.g-tile.hide{ display:none; }
+.g-tile:nth-child(3n+1){ grid-column: span 2; }
+.g-tile:nth-child(4n){ aspect-ratio: 4/5; }
+.g-tex{ position:absolute; inset:0; transition: transform .7s var(--ease); }
+.g-tile:hover .g-tex{ transform: scale(1.07); }
+.g-tile::before{ content:""; position:absolute; inset:0; background: linear-gradient(to top, rgba(20,18,14,.82), rgba(20,18,14,0) 60%); z-index:1; }
+.g-cap{ position:absolute; left:20px; right:20px; bottom:18px; z-index:2; color: var(--paper); }
+.g-cap .room{ font-size:11px; letter-spacing:.12em; text-transform:uppercase; color: var(--brass-light); margin-bottom:6px; font-weight:700; }
+.g-cap p{ font-size:13.5px; line-height:1.45; opacity:.92; }
+
+.g1 .g-tex{ background: linear-gradient(135deg, var(--verde), var(--verde-deep) 70%); }
+.g2 .g-tex{ background-color:#E9E0CB; background-image: radial-gradient(circle at 9px 9px, rgba(139,85,70,.45) 2px, transparent 2.4px); background-size:26px 26px; }
+.g3 .g-tex{ background: repeating-linear-gradient(45deg, #5C3623 0 3px, #6E4430 3px 8px, #4E2D1D 8px 10px), linear-gradient(#5C3623,#5C3623); }
+.g4 .g-tex{ background-color:#D8C6A8; background-image: radial-gradient(circle at 10px 10px, rgba(60,74,59,.4) 2px, transparent 2.4px); background-size:24px 24px; }
+.g5 .g-tex{ background: radial-gradient(circle at 30% 20%, #A85F63, #8B5546 60%, #5c372c); }
+.g6 .g-tex{ background-color:#EFE7D6; background-image: radial-gradient(circle at 9px 9px, rgba(169,121,59,.4) 1.8px, transparent 2.2px), radial-gradient(circle at 19px 19px, rgba(31,28,23,.15) 1.4px, transparent 1.8px); background-size:28px 28px; }
+.g7 .g-tex{ background: repeating-linear-gradient(95deg, #2b2723 0 4px, #3a352c 4px 9px); }
+.g8 .g-tex{ background: radial-gradient(circle at 32% 28%, #6C7C67, var(--verde) 55%, var(--verde-deep) 100%); }
+
+/* ============================= REVIEWS ============================= */
+.reviews-band{ background: var(--ink); color: var(--paper); overflow:hidden; }
+.reviews-band .eyebrow{ color: var(--brass-light); justify-content:center; }
+.reviews-band .eyebrow::before{ background: var(--brass-light); }
+.reviews-inner{ text-align:center; max-width:820px; margin:0 auto; }
+.rev-track{ position:relative; min-height: 210px; }
+.rev-slide{
+  position:absolute; inset:0; opacity:0; visibility:hidden; transform: translateY(14px);
+  transition: opacity .6s var(--ease), transform .6s var(--ease), visibility 0s linear .6s;
+}
+.rev-slide.active{ opacity:1; visibility:visible; transform:none; transition: opacity .6s var(--ease), transform .6s var(--ease); }
+.rev-slide blockquote{ font-family: var(--font-display); font-style:italic; font-size: clamp(21px,3vw,32px); line-height:1.35; margin-bottom:26px; }
+.rev-slide .author{ font-size:13px; letter-spacing:.04em; color: var(--stone); }
+.rev-slide .author b{ color: var(--brass-light); font-weight:700; }
+.rev-nav{ display:flex; align-items:center; justify-content:center; gap:22px; margin-top:36px; }
+.rev-arrow{ width:38px; height:38px; border:1px solid rgba(250,248,243,.25); border-radius:50%; display:flex; align-items:center; justify-content:center; transition: border-color .3s ease, transform .3s ease; }
+.rev-arrow:hover{ border-color: var(--paper); transform: scale(1.06); }
+.rev-arrow svg{ width:14px; height:14px; }
+.rev-dots{ display:flex; gap:9px; }
+.rev-dots button{ width:7px; height:7px; border-radius:50%; background: rgba(250,248,243,.28); transition: background .3s ease, transform .3s ease; }
+.rev-dots button.active{ background: var(--brass-light); transform: scale(1.35); }
+
+/* ============================= CONTACT ============================= */
+.contact-grid{ display:grid; grid-template-columns: 1fr 0.85fr; gap: clamp(30px,6vw,80px); }
+.field{ margin-bottom:20px; }
+.field label{ display:block; font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color: var(--ink-soft); margin-bottom:8px; }
+.field input, .field select, .field textarea{
+  width:100%; border:1px solid var(--stone-line); background: var(--cream-card); padding:14px 16px; border-radius:3px; font-size:15px;
+  transition: border-color .3s ease, background .3s ease;
+}
+.field input:focus, .field select:focus, .field textarea:focus{ border-color: var(--verde); background: var(--paper); }
+.field-row{ display:grid; grid-template-columns:1fr 1fr; gap:20px; }
+.contact-form-note{ font-size:13px; color: var(--stone); margin-top:16px; }
+.form-success{ display:none; background: var(--verde); color: var(--paper); padding:18px 20px; border-radius:4px; font-size:14px; margin-bottom:22px; align-items:center; gap:12px; }
+.form-success.show{ display:flex; }
+.form-success svg{ width:18px; height:18px; flex-shrink:0; }
+
+.contact-side{ display:flex; flex-direction:column; gap:0; }
+.info-block{ padding: 26px 0; border-bottom:1px solid var(--stone-line); }
+.info-block:first-child{ padding-top:0; }
+.info-block .lbl{ font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color: var(--brass); margin-bottom:8px; }
+.info-block .val{ font-family: var(--font-display); font-size:19px; }
+.map-frame{ margin-top:24px; border-radius:5px; overflow:hidden; border:1px solid var(--stone-line); aspect-ratio: 16/11; }
+.map-frame iframe{ width:100%; height:100%; border:0; filter: grayscale(.25) sepia(.12) saturate(1.05); }
+
+/* ============================= FOOTER ============================= */
+footer{ background: var(--ink); color: var(--paper); padding: 84px 0 0; }
+.footer-top{ display:grid; grid-template-columns: 1.4fr 1fr 1fr 1.2fr; gap:40px; padding-bottom:64px; border-bottom:1px solid rgba(250,248,243,.12); }
+.footer-brand .wordmark{ color: var(--paper); font-size:24px; }
+.footer-brand .wordmark span{ color: var(--brass-light); }
+.footer-brand p{ color: rgba(250,248,243,.65); font-size:14px; margin: 18px 0 24px; max-width:32ch; }
+.footer-swatches{ display:flex; gap:8px; width:180px; }
+.footer-swatches .swatch{ height:34px; box-shadow:none; }
+.footer h4{ font-size:12px; letter-spacing:.1em; text-transform:uppercase; color: var(--brass-light); margin-bottom:20px; font-weight:700; }
+.footer-links li{ margin-bottom:12px; }
+.footer-links a{ font-size:14.5px; color: rgba(250,248,243,.78); transition: color .3s ease, padding .3s ease; }
+.footer-links a:hover{ color: var(--paper); padding-left:4px; }
+.newsletter-form{ display:flex; border-bottom:1px solid rgba(250,248,243,.35); padding-bottom:10px; margin-top:6px; }
+.newsletter-form input{ flex:1; color: var(--paper); font-size:14px; }
+.newsletter-form input::placeholder{ color: rgba(250,248,243,.45); }
+.newsletter-form button{ display:flex; align-items:center; }
+.newsletter-form button svg{ width:16px; height:16px; transition: transform .3s ease; }
+.newsletter-form button:hover svg{ transform: translateX(4px); }
+.footer-bottom{ display:flex; justify-content:space-between; align-items:center; padding:26px 0; flex-wrap:wrap; gap:14px; }
+.footer-bottom p{ font-size:12.5px; color: rgba(250,248,243,.5); }
+.footer-legal{ display:flex; gap:22px; }
+.footer-legal a{ font-size:12.5px; color: rgba(250,248,243,.5); transition: color .3s ease; }
+.footer-legal a:hover{ color: var(--paper); }
+
+/* ============================= RESPONSIVE ============================= */
+@media (max-width: 1024px){
+  .hero-grid{ grid-template-columns:1fr; }
+  .hero-visual{ order:-1; max-width:420px; margin: 0 auto; }
+  .about-grid{ grid-template-columns:1fr; }
+  .about-visual{ position:static; max-width:360px; }
+  .products-grid{ grid-template-columns: repeat(2,1fr); }
+  .why-wrap{ grid-template-columns:1fr; }
+  .why-deck{ grid-template-columns: repeat(2, 1fr); }
+  .brands-grid{ grid-template-columns: repeat(2,1fr); }
+  .gallery-grid{ grid-template-columns: repeat(2,1fr); }
+  .g-tile{ grid-column: span 1 !important; aspect-ratio:4/3 !important; }
+  .contact-grid{ grid-template-columns:1fr; }
+  .footer-top{ grid-template-columns: 1fr 1fr; row-gap:44px; }
+}
+@media (max-width: 720px){
+  .nav-links, .nav-cta{ display:none; }
+  .menu-toggle{ display:flex; }
+  .nav.menu-open .nav-links{
+    display:flex; flex-direction:column; position:fixed; inset:0; top:0; background:var(--plaster);
+    padding: 110px 32px 40px; gap:26px; z-index:60;
+  }
+  .nav.menu-open .nav-links a{ font-size:22px; font-family:var(--font-display); }
+  .nav.menu-open .nav-cta{ display:inline-flex; position:fixed; left:32px; right:32px; bottom:36px; justify-content:center; z-index:60; }
+  .hero{ padding-top:120px; }
+  .hero-offer-row .container{ flex-direction:column; align-items:flex-start; }
+  .products-grid{ grid-template-columns:1fr; }
+  .why-deck{ grid-template-columns:1fr; }
+  .brands-grid{ grid-template-columns: 1fr 1fr; }
+  .field-row{ grid-template-columns:1fr; }
+  .footer-top{ grid-template-columns:1fr; }
+  .section-head{ flex-direction:column; align-items:flex-start; }
+}
+</style>
+</head>
+<body>
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- ============================= NAV ============================= -->
+<header class="nav" id="siteNav">
+  <div class="container">
+    <a href="#main" class="logo-link" aria-label="Emiliana Parati">
+      <img src="logo.png" alt="Emiliana Parati" class="logo-img">
+    </a>
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about" data-i18n="nav_about">About Us</a>
+      <a href="#products" data-i18n="nav_products">Products</a>
+      <a href="#why" data-i18n="nav_why">Why Us</a>
+      <a href="#brands" data-i18n="nav_brands">Brands</a>
+      <a href="#gallery" data-i18n="nav_gallery">Gallery</a>
+      <a href="#reviews" data-i18n="nav_reviews">Reviews</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <div class="lang-switch" role="group" aria-label="Language">
+        <span class="pill" id="langPill"></span>
+        <button type="button" data-lang="az" class="active">AZ</button>
+        <button type="button" data-lang="en">EN</button>
+        <button type="button" data-lang="ru">RU</button>
+      </div>
+      <a href="#contact" class="btn btn-primary nav-cta" data-i18n="nav_cta">Get in touch</a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false"><span></span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<!-- ============================= HERO ============================= -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow" data-i18n="hero_eyebrow">MATERIALS ATELIER · BAKU</p>
+      <h1 data-i18n-html="hero_headline">Surfaces that <em>define</em> a home.</h1>
+      <p class="lede" data-i18n="hero_sub">Emiliana Parati curates paint, wallpaper, doors and parquet for people who notice the difference between good and considered.</p>
+      <div class="hero-actions">
+        <a href="#products" class="btn btn-primary">
+          <span data-i18n="hero_cta_primary">Explore materials</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-ghost" data-i18n="hero_cta_secondary">Book a consultation</a>
+      </div>
+      <div class="hero-since">
+        <span class="num">2007</span>
+        <div class="divider"></div>
+        <span class="txt" data-i18n="hero_since">Working since 2007<br>Nizami Street, Baku</span>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-slideshow" aria-hidden="true">
+        <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=900&q=80');"></div>
+        <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=900&q=80');"></div>
+        <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=80');"></div>
+        <div class="slide" style="background-image:url('https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80');"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-offer-row">
+    <div class="container">
+      <span class="offer-tag" data-i18n="hero_offer_label">WHAT WE SELL</span>
+      <ul class="offer-list">
+        <li data-i18n="paint_name">Paint</li>
+        <li data-i18n="wallpaper_name">Wallpaper</li>
+        <li data-i18n="doors_name">Doors</li>
+        <li data-i18n="parquet_name">Parquet</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= ABOUT ============================= -->
+<section id="about" class="section-pad">
+  <div class="container about-grid">
+    <div class="about-visual reveal">
+      <div class="frame">
+        <div class="frame-caption">
+          <div class="yr">2007</div>
+          <div class="lbl" data-i18n="about_since_lbl">First shop opened in Baku</div>
+        </div>
+      </div>
+    </div>
+    <div class="about-copy">
+      <p class="eyebrow" data-i18n="about_eyebrow">ABOUT US</p>
+      <h2 class="reveal" data-i18n="about_headline">Nearly two decades of choosing well.</h2>
+      <p class="reveal" data-i18n="about_p1">Emiliana Parati opened in Baku in 2007 with a simple premise: the finishing materials of a home deserve the same care as its architecture.</p>
+      <p class="reveal" data-i18n="about_p2">We don't chase every trend. We choose ranges we would specify in our own homes — from breathable lime paints to European wallpapers, solid doors and parquet built to outlast a single renovation.</p>
+      <blockquote class="about-quote reveal" data-i18n="about_quote">"Good materials don't shout. They just age well."</blockquote>
+      <div class="about-stats reveal-stagger">
+        <div class="stat"><div class="n">19</div><div class="l" data-i18n="about_stat1_label">Years in business</div></div>
+        <div class="stat"><div class="n">1,200+</div><div class="l" data-i18n="about_stat2_label">Projects completed</div></div>
+        <div class="stat"><div class="n">20+</div><div class="l" data-i18n="about_stat3_label">Brands carried</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= PRODUCTS ============================= -->
+<section id="products" class="section-pad" style="background:var(--plaster-2)">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow" data-i18n="products_eyebrow">WHAT WE SELL</p>
+        <h2 data-i18n="products_headline">Four crafts, one address.</h2>
+      </div>
+      <p class="lede" data-i18n="products_sub">Hover any material to see how we work with it.</p>
+    </div>
+
+    <div class="products-grid reveal-stagger">
+      <article class="p-card">
+        <div class="p-texture"></div>
+        <div class="p-peel"></div>
+        <div class="p-body">
+          <span class="p-index" data-i18n="paint_index">01 — PAINT</span>
+          <h3 data-i18n="paint_name">Paint</h3>
+          <p data-i18n="paint_desc">Breathable lime and mineral paints, bespoke tinting, and finishes from matte chalk to deep lacquer.</p>
+          <a href="#contact" class="p-link"><span data-i18n="paint_cta">View paint range</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <article class="p-card">
+        <div class="p-texture"></div>
+        <div class="p-peel"></div>
+        <div class="p-body">
+          <span class="p-index" data-i18n="wallpaper_index">02 — WALLPAPER</span>
+          <h3 data-i18n="wallpaper_name">Wallpaper</h3>
+          <p data-i18n="wallpaper_desc">European wallpapers in small print runs — botanical, plaster-effect and textile weaves for rooms with intent.</p>
+          <a href="#contact" class="p-link"><span data-i18n="wallpaper_cta">View wallpaper range</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <article class="p-card">
+        <div class="p-texture"></div>
+        <div class="p-peel"></div>
+        <div class="p-body">
+          <span class="p-index" data-i18n="doors_index">03 — DOORS</span>
+          <h3 data-i18n="doors_name">Doors</h3>
+          <p data-i18n="doors_desc">Solid interior doors in oak, walnut and lacquered finishes, fitted with brass and matte-black hardware.</p>
+          <a href="#contact" class="p-link"><span data-i18n="doors_cta">View door range</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+      <article class="p-card">
+        <div class="p-texture"></div>
+        <div class="p-peel"></div>
+        <div class="p-body">
+          <span class="p-index" data-i18n="parquet_index">04 — PARQUET</span>
+          <h3 data-i18n="parquet_name">Parquet</h3>
+          <p data-i18n="parquet_desc">Engineered and solid parquet — herringbone, chevron and wide-plank oak, finished to order.</p>
+          <a href="#contact" class="p-link"><span data-i18n="parquet_cta">View parquet range</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= WHY US ============================= -->
+<section id="why" class="section-pad">
+  <div class="container">
+    <div class="why-wrap">
+      <div class="reveal">
+        <p class="eyebrow" data-i18n="why_eyebrow">WHY CHOOSE US</p>
+        <h2 data-i18n="why_headline">Five reasons designers call us first.</h2>
+      </div>
+      <p class="lede reveal" data-i18n="why_sub">We're not the biggest hardware store in Baku — we're the one your architect already has saved in their phone.</p>
+    </div>
+
+    <div class="why-deck reveal-stagger">
+      <div class="why-chip">
+        <span class="mk">01</span>
+        <div>
+          <h3 data-i18n="why1_title">Curated, not everything</h3>
+          <p data-i18n="why1_desc">Every range is chosen and tested — no filler SKUs, no guesswork.</p>
+        </div>
+      </div>
+      <div class="why-chip">
+        <span class="mk">02</span>
+        <div>
+          <h3 data-i18n="why2_title">In-house colour studio</h3>
+          <p data-i18n="why2_desc">Custom tinting and finish sampling on-site, matched to your light and walls.</p>
+        </div>
+      </div>
+      <div class="why-chip">
+        <span class="mk">03</span>
+        <div>
+          <h3 data-i18n="why3_title">One team, four crafts</h3>
+          <p data-i18n="why3_desc">Paint, wallpaper, doors and parquet specified together, so finishes actually agree.</p>
+        </div>
+      </div>
+      <div class="why-chip">
+        <span class="mk">04</span>
+        <div>
+          <h3 data-i18n="why4_title">Site measurement included</h3>
+          <p data-i18n="why4_desc">We measure before you order, so quantities and cuts are right the first time.</p>
+        </div>
+      </div>
+      <div class="why-chip">
+        <span class="mk">05</span>
+        <div>
+          <h3 data-i18n="why5_title">Warranty you can call about</h3>
+          <p data-i18n="why5_desc">A direct line to the person who sold you the material, for the life of the floor.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= BRANDS ============================= -->
+<section id="brands" class="section-pad" style="background:var(--plaster-2)">
+  <div class="container">
+    <div class="brands-head reveal">
+      <p class="eyebrow" data-i18n="brands_eyebrow">FEATURED BRANDS</p>
+      <h2 data-i18n="brands_headline">The names behind the finish.</h2>
+      <p data-i18n="brands_sub">We import directly and hold exclusive representation for several of these houses in Azerbaijan.</p>
+    </div>
+    <div class="brands-grid reveal-stagger">
+      <div class="brand-cell"><div class="bn">Marchetti Colore<small data-i18n="paint_name">Paint</small></div></div>
+      <div class="brand-cell"><div class="bn">Calce Viva<small data-i18n="paint_name">Paint</small></div></div>
+      <div class="brand-cell"><div class="bn">Casa Tessuto<small data-i18n="wallpaper_name">Wallpaper</small></div></div>
+      <div class="brand-cell"><div class="bn">Botanica Carta<small data-i18n="wallpaper_name">Wallpaper</small></div></div>
+      <div class="brand-cell"><div class="bn">Portello Milano<small data-i18n="doors_name">Doors</small></div></div>
+      <div class="brand-cell"><div class="bn">Legno &amp; Ferro<small data-i18n="doors_name">Doors</small></div></div>
+      <div class="brand-cell"><div class="bn">Rovere Atelier<small data-i18n="parquet_name">Parquet</small></div></div>
+      <div class="brand-cell"><div class="bn">Tavole del Nord<small data-i18n="parquet_name">Parquet</small></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= GALLERY ============================= -->
+<section id="gallery" class="section-pad">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow" data-i18n="gallery_eyebrow">INSPIRATION</p>
+        <h2 data-i18n="gallery_headline">Pairings from real projects.</h2>
+      </div>
+      <p class="lede" data-i18n="gallery_sub">A material rarely works alone. These are combinations our team has specified and delivered.</p>
+    </div>
+
+    <div class="filters reveal">
+      <button class="filter-btn active" data-filter="all" data-i18n="filter_all">All</button>
+      <button class="filter-btn" data-filter="living" data-i18n="filter_living">Living Room</button>
+      <button class="filter-btn" data-filter="bedroom" data-i18n="filter_bedroom">Bedroom</button>
+      <button class="filter-btn" data-filter="entrance" data-i18n="filter_entrance">Entrance</button>
+      <button class="filter-btn" data-filter="office" data-i18n="filter_office">Office</button>
+    </div>
+
+    <div class="gallery-grid reveal-stagger" id="galleryGrid">
+      <div class="g-tile g1" data-room="living"><div class="g-tex"></div><div class="g-cap"><div class="room" data-i18n="filter_living">Living Room</div><p data-i18n="gallery1_caption">Verde Bosco paint · wide-plank oak parquet · brass door hardware</p></div></div>
+      <div class="g-tile g2" data-room="bedroom"><div class="g-tex"></div><div class="g-cap"><div class="room" data-i18n="filter_bedroom">Bedroom</div><p data-i18n="gallery2_caption">Plaster-effect wallpaper · lacquered walnut door · chalk white ceiling</p></div></div>
+      <div class="g-tile g3" data-room="entrance"><div class="g-tex"></div><div class="g-cap"><div class="room" data-i18n="filter_entrance">Entrance</div><p data-i18n="gallery3_caption">Herringbone oak parquet · deep umber paint · matte black hardware</p></div></div>
+      <div class="g-tile g4" data-room="office"><div class="g-tex"></div><div class="g-cap"><div class="room" data-i18n="filter_office">Office</div><p data-i18n="gallery4_caption">Botanical wallpaper · smoked oak door · matte lacquer trim</p></div></div>
+      <div class="g-tile g5" data-room="living"><div class="g-tex"></div><div class="g-cap"><div class="room" data-i18n="filter_living">Living Room</div><p data-i18n="gallery5_caption">Clay pink lime paint · chevron parquet · brass sconce line</p></div></div>
+      <div class="g-tile g6" data-room="bedroom"><div class="g-tex"></div><div class="g-cap"><div class="room" data-i18n="filter_bedroom">Bedroom</div><p data-i18n="gallery6_caption">Textile-weave wallpaper · white oak parquet · ivory ceiling paint</p></div></div>
+      <div class="g-tile g7" data-room="entrance"><div class="g-tex"></div><div class="g-cap"><div class="room" data-i18n="filter_entrance">Entrance</div><p data-i18n="gallery7_caption">Charcoal door lacquer · terrazzo-toned wallpaper · brass kick plate</p></div></div>
+      <div class="g-tile g8" data-room="office"><div class="g-tex"></div><div class="g-cap"><div class="room" data-i18n="filter_office">Office</div><p data-i18n="gallery8_caption">Deep verde paint · wide oak parquet · brushed brass handles</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= REVIEWS ============================= -->
+<section id="reviews" class="section-pad reviews-band">
+  <div class="container reviews-inner">
+    <p class="eyebrow reveal" data-i18n="reviews_eyebrow">CUSTOMER REVIEWS</p>
+    <h2 class="reveal" style="color:var(--paper); margin:14px 0 46px;" data-i18n="reviews_headline">Said by the people who live with our materials.</h2>
+
+    <div class="rev-track">
+      <div class="rev-slide active">
+        <blockquote data-i18n="review1_text">"They measured twice, ordered once, and the parquet in our living room still looks new three years on."</blockquote>
+        <p class="author" data-i18n="review1_author"><b>Leyla M.</b> — Homeowner, Baku</p>
+      </div>
+      <div class="rev-slide">
+        <blockquote data-i18n="review2_text">"As an architect I specify their paint on almost every residential project — the colour studio actually understands light."</blockquote>
+        <p class="author" data-i18n="review2_author"><b>Rashad G.</b> — Architect</p>
+      </div>
+      <div class="rev-slide">
+        <blockquote data-i18n="review3_text">"We changed our minds twice on the wallpaper and they never made us feel difficult for it."</blockquote>
+        <p class="author" data-i18n="review3_author"><b>Nigar A.</b> — Homeowner</p>
+      </div>
+      <div class="rev-slide">
+        <blockquote data-i18n="review4_text">"The doors alone were worth the drive across the city. Real weight, real hinges, no shortcuts."</blockquote>
+        <p class="author" data-i18n="review4_author"><b>Elvin T.</b> — Homeowner</p>
+      </div>
+    </div>
+
+    <div class="rev-nav">
+      <button class="rev-arrow" id="revPrev" aria-label="Previous review"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 6l-6 6 6 6"/></svg></button>
+      <div class="rev-dots" id="revDots"></div>
+      <button class="rev-arrow" id="revNext" aria-label="Next review"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 6l6 6-6 6"/></svg></button>
+    </div>
+  </div>
+</section>
+
+<!-- ============================= CONTACT ============================= -->
+<section id="contact" class="section-pad">
+  <div class="container">
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow" data-i18n="contact_eyebrow">CONTACT &amp; LOCATION</p>
+        <h2 data-i18n="contact_headline">Come see the materials in person.</h2>
+      </div>
+      <p class="lede" data-i18n="contact_sub">Photographs never quite capture a finish. Bring your plans, your paint chips, even your doubts.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="reveal">
+        <div class="form-success" id="formSuccess">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+          <span data-i18n="form_success_msg">Thank you — we'll be in touch within one business day.</span>
+        </div>
+        <form id="contactForm">
+          <div class="field-row">
+            <div class="field">
+              <label data-i18n="form_name">Name</label>
+              <input type="text" required>
+            </div>
+            <div class="field">
+              <label data-i18n="form_phone">Phone</label>
+              <input type="tel" required>
+            </div>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label data-i18n="form_email">Email</label>
+              <input type="email" required>
+            </div>
+            <div class="field">
+              <label data-i18n="form_interest">Interested in</label>
+              <select>
+                <option data-i18n="form_interest_opt1">Paint</option>
+                <option data-i18n="form_interest_opt2">Wallpaper</option>
+                <option data-i18n="form_interest_opt3">Doors</option>
+                <option data-i18n="form_interest_opt4">Parquet</option>
+                <option data-i18n="form_interest_opt5">Not sure yet</option>
+              </select>
+            </div>
+          </div>
+          <div class="field">
+            <label data-i18n="form_message">Message</label>
+            <textarea rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">
+            <span data-i18n="form_submit">Send message</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+          <p class="contact-form-note" data-i18n="contact_form_note">This form is a design preview and isn't connected to a live inbox yet.</p>
+        </form>
+      </div>
+
+      <div class="contact-side reveal">
+        <div class="info-block">
+          <div class="lbl" data-i18n="contact_address_label">Showroom Address</div>
+          <div class="val">28 Nizami Street, Baku, Azerbaijan</div>
+        </div>
+        <div class="info-block">
+          <div class="lbl" data-i18n="contact_hours_label">Opening Hours</div>
+          <div class="val" data-i18n="contact_hours_value">Mon–Sat, 10:00–19:00</div>
+        </div>
+        <div class="info-block">
+          <div class="lbl" data-i18n="contact_phone_label">Phone</div>
+          <div class="val">+994 12 555 04 04</div>
+        </div>
+        <div class="info-block">
+          <div class="lbl" data-i18n="contact_email_label">Email</div>
+          <div class="val">hello@emilianaparati.az</div>
+        </div>
+        <div class="map-frame">
+          <iframe src="https://maps.google.com/maps?q=Nizami%20Street%2C%20Baku%2C%20Azerbaijan&t=&z=15&ie=UTF8&iwloc=&output=embed" loading="lazy" title="Emiliana Parati showroom location"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============================= FOOTER ============================= -->
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="#main" class="wordmark">Emiliana <span>Parati</span></a>
+        <p data-i18n="footer_tagline">Materials atelier for considered interiors, in Baku since 2007.</p>
+        <div class="footer-swatches" aria-hidden="true">
+          <div class="swatch swatch-paint" style="flex:1"></div>
+          <div class="swatch swatch-wallpaper" style="flex:1"></div>
+          <div class="swatch swatch-door" style="flex:1"></div>
+          <div class="swatch swatch-parquet" style="flex:1"></div>
+        </div>
+      </div>
+      <div>
+        <h4 data-i18n="footer_col_explore">Explore</h4>
+        <ul class="footer-links">
+          <li><a href="#about" data-i18n="nav_about">About Us</a></li>
+          <li><a href="#products" data-i18n="nav_products">Products</a></li>
+          <li><a href="#gallery" data-i18n="nav_gallery">Gallery</a></li>
+          <li><a href="#reviews" data-i18n="nav_reviews">Reviews</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="footer_col_materials">Materials</h4>
+        <ul class="footer-links">
+          <li><a href="#products" data-i18n="paint_name">Paint</a></li>
+          <li><a href="#products" data-i18n="wallpaper_name">Wallpaper</a></li>
+          <li><a href="#products" data-i18n="doors_name">Doors</a></li>
+          <li><a href="#products" data-i18n="parquet_name">Parquet</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="newsletter_label">Notes on new arrivals, twice a month, no more.</h4>
+        <form class="newsletter-form" id="newsletterForm">
+          <input type="email" required data-i18n-placeholder="newsletter_placeholder" placeholder="Your email">
+          <button type="submit" aria-label="Subscribe">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p data-i18n="footer_copyright">© 2026 Emiliana Parati. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="#" data-i18n="footer_privacy">Privacy</a>
+        <a href="#" data-i18n="footer_terms">Terms</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* ============================= TRANSLATIONS ============================= */
+var translations = {
+  az: {
+    nav_about:"Haqqımızda", nav_products:"Məhsullar", nav_why:"Niyə Biz", nav_brands:"Brendlər", nav_gallery:"Qalereya", nav_reviews:"Rəylər", nav_contact:"Əlaqə", nav_cta:"Bizimlə əlaqə",
+    hero_eyebrow:"MATERİALLAR ATELİYESİ · BAKI",
+    hero_headline:'Bir evi <em>fərqləndirən</em> səthlər.',
+    hero_sub:"Emiliana Parati fərqi hiss edən insanlar üçün boya, divar kağızı, qapı və parket seçir. Bir ünvan, dörd sənət, tək standart.",
+    hero_cta_primary:"Materialları kəşf et", hero_cta_secondary:"Konsultasiya təyin et",
+    hero_since:"2007-ci ildən fəaliyyətdə<br>Nizami küçəsi, Bakı",
+    hero_offer_label:"NƏ SATIRIQ",
+    about_eyebrow:"HAQQIMIZDA", about_since_lbl:"Bakıdakı ilk mağaza açıldı",
+    about_headline:"Düzgün seçim etməyin təxminən iyirmi ili.",
+    about_p1:"Emiliana Parati 2007-ci ildə Bakıda sadə bir prinsiplə açıldı: evin bitirmə materialları memarlıq qədər diqqətə layiqdir.",
+    about_p2:"Biz hər trendin ardınca getmirik. Öz evimizdə seçəcəyimiz çeşidləri seçirik — nəfəs alan əhəngli boyalardan Avropa divar kağızlarına, bir təmir dövründən çox davam edən möhkəm qapı və parketlərə qədər.",
+    about_quote:'"Yaxşı materiallar qışqırmır. Onlar sadəcə gözəl köhnəlir."',
+    about_stat1_label:"Fəaliyyət ili", about_stat2_label:"Tamamlanmış layihə", about_stat3_label:"Təmsil olunan brend",
+    products_eyebrow:"NƏ SATIRIQ", products_headline:"Dörd sənət, bir ünvan.", products_sub:"Hər materialın üzərinə keçərək necə işlədiyimizi görün.",
+    paint_index:"01 — BOYA", paint_name:"Boya", paint_desc:"Nəfəs alan əhəngli və mineral boyalar, fərdi çalar seçimi, mat təbaşirdən dərin lak parıltısına qədər örtüklər.", paint_cta:"Boya çeşidinə bax",
+    wallpaper_index:"02 — DİVAR KAĞIZI", wallpaper_name:"Divar kağızı", wallpaper_desc:"Kiçik tirajlı Avropa divar kağızları — botanik, suvaq effektli və toxuma naxışlı, məqsədli otaqlar üçün.", wallpaper_cta:"Divar kağızı çeşidinə bax",
+    doors_index:"03 — QAPILAR", doors_name:"Qapılar", doors_desc:"Palıd, qoz ağacı və lak örtüklü massiv interyer qapıları, bürünc və mat qara aksesuarlarla.", doors_cta:"Qapı çeşidinə bax",
+    parquet_index:"04 — PARKET", parquet_name:"Parket", parquet_desc:"Mühəndis və massiv parket — balıqqulağı, şevron və geniş lövhəli palıd, sifarişə uyğun emal olunur.", parquet_cta:"Parket çeşidinə bax",
+    why_eyebrow:"NİYƏ BİZ", why_headline:"Dizaynerlərin bizi birinci axtarmasının beş səbəbi.",
+    why_sub:"Bakının ən böyük tikinti mağazası deyilik — memarınızın telefonunda artıq saxladığı ünvanıq.",
+    why1_title:"Hər şey yox, seçilmiş", why1_desc:"Hər çeşid seçilir və sınaqdan keçirilir — artıq mal, təxmin yoxdur.",
+    why2_title:"Öz rəng studiyamız", why2_desc:"Sizin işıq və divarlarınıza uyğun fərdi çalar və nümunə hazırlığı yerində.",
+    why3_title:"Bir komanda, dörd sənət", why3_desc:"Boya, divar kağızı, qapı və parket birgə seçilir — örtüklər bir-biri ilə həqiqətən uzlaşır.",
+    why4_title:"Ölçü xidməti daxildir", why4_desc:"Sifarişdən əvvəl ölçürük — miqdar və kəsim ilk dəfədən düzgün olur.",
+    why5_title:"Zəng edə biləcəyiniz zəmanət", why5_desc:"Materialı sizə satan şəxslə birbaşa əlaqə — döşəmənin bütün ömrü boyu.",
+    brands_eyebrow:"TƏMSİL ETDİYİMİZ BRENDLƏR", brands_headline:"Örtüyün arxasındakı adlar.",
+    brands_sub:"Bu evlərin bir çoğunu birbaşa idxal edirik və Azərbaycanda müstəsna təmsilçiliyini həyata keçiririk.",
+    gallery_eyebrow:"İLHAM", gallery_headline:"Real layihələrdən uzlaşmalar.", gallery_sub:"Material nadir hallarda tək işləyir. Bunlar komandamızın seçib təhvil verdiyi kombinasiyalardır.",
+    filter_all:"Hamısı", filter_living:"Qonaq otağı", filter_bedroom:"Yataq otağı", filter_entrance:"Giriş", filter_office:"Ofis",
+    gallery1_caption:"Verde Bosco boyası · geniş lövhəli palıd parket · bürünc qapı aksesuarı",
+    gallery2_caption:"Suvaq effektli divar kağızı · lak qoz qapı · təbaşir ağ tavan",
+    gallery3_caption:"Balıqqulağı naxışlı palıd parket · tünd kəhrəba boya · mat qara aksesuar",
+    gallery4_caption:"Botanik divar kağızı · tüstülü palıd qapı · mat lak haşiyə",
+    gallery5_caption:"Gil-çəhrayı əhəng boya · şevron parket · bürünc divar çıraq xətti",
+    gallery6_caption:"Toxuma naxışlı divar kağızı · ağ palıd parket · fil sümüyü tavan boyası",
+    gallery7_caption:"Kömür rəngli lak qapı · terrazzo tonlu divar kağızı · bürünc təkan lövhəsi",
+    gallery8_caption:"Dərin yaşıl boya · geniş palıd parket · şotkalanmış bürünc dəstək",
+    reviews_eyebrow:"MÜŞTƏRİ RƏYLƏRİ", reviews_headline:"Materiallarımızla yaşayan insanların sözləri.",
+    review1_text:'"İki dəfə ölçdülər, bir dəfə sifariş verdilər və qonaq otağımızdakı parket üç ildən sonra da yeni görünür."', review1_author:"<b>Leyla M.</b> — Ev sahibi, Bakı",
+    review2_text:'"Memar olaraq demək olar ki, hər yaşayış layihəsində onların boyasını seçirəm — rəng studiyası işığı həqiqətən anlayır."', review2_author:"<b>Rəşad Q.</b> — Memar",
+    review3_text:'"Divar kağızı ilə bağlı fikrimizi iki dəfə dəyişdik və onlar bizi heç vaxt çətin müştəri kimi hiss etdirmədilər."', review3_author:"<b>Nigar Ə.</b> — Ev sahibi",
+    review4_text:'"Təkcə qapılar üçün şəhərin o başından gəlməyə dəyərdi. Əsl çəki, əsl mentaşa, heç bir qısayol yoxdur."', review4_author:"<b>Elvin T.</b> — Ev sahibi",
+    contact_eyebrow:"ƏLAQƏ VƏ ÜNVAN", contact_headline:"Materialları öz gözünüzlə görün.",
+    contact_sub:"Şəkillər heç vaxt bir örtüyü tam əks etdirmir. Planlarınızı, boya nümunələrinizi, hətta tərəddüdlərinizi belə gətirin.",
+    form_name:"Ad", form_phone:"Telefon", form_email:"E-poçt", form_interest:"Maraqlanır",
+    form_interest_opt1:"Boya", form_interest_opt2:"Divar kağızı", form_interest_opt3:"Qapılar", form_interest_opt4:"Parket", form_interest_opt5:"Hələ bilmirəm",
+    form_message:"Mesaj", form_submit:"Mesajı göndər", contact_form_note:"Bu forma dizayn nümayişidir və hələ real qutuya bağlı deyil.",
+    form_success_msg:"Təşəkkürlər — bir iş günü ərzində sizinlə əlaqə saxlayacağıq.",
+    contact_address_label:"Salon Ünvanı", contact_hours_label:"İş saatları", contact_hours_value:"B.e–Şənbə, 10:00–19:00",
+    contact_phone_label:"Telefon", contact_email_label:"E-poçt",
+    footer_tagline:"2007-ci ildən Bakıda, düşünülmüş interyerlər üçün materiallar ateliyesi.",
+    footer_col_explore:"Naviqasiya", footer_col_materials:"Materiallar",
+    newsletter_label:"Yeni gələnlər haqqında qeydlər, ayda iki dəfə, daha çox yox.", newsletter_placeholder:"E-poçtunuz",
+    footer_copyright:"© 2026 Emiliana Parati. Bütün hüquqlar qorunur.", footer_privacy:"Məxfilik", footer_terms:"Şərtlər"
+  },
+  en: {
+    nav_about:"About Us", nav_products:"Products", nav_why:"Why Us", nav_brands:"Brands", nav_gallery:"Gallery", nav_reviews:"Reviews", nav_contact:"Contact", nav_cta:"Get in touch",
+    hero_eyebrow:"MATERIALS ATELIER · BAKU",
+    hero_headline:'Surfaces that <em>define</em> a home.',
+    hero_sub:"Emiliana Parati curates paint, wallpaper, doors and parquet for people who notice the difference between good and considered. One address, four crafts, one standard.",
+    hero_cta_primary:"Explore materials", hero_cta_secondary:"Book a consultation",
+    hero_since:"Working since 2007<br>Nizami Street, Baku",
+    hero_offer_label:"WHAT WE SELL",
+    about_eyebrow:"ABOUT US", about_since_lbl:"First shop opened in Baku",
+    about_headline:"Nearly two decades of choosing well.",
+    about_p1:"Emiliana Parati opened in Baku in 2007 with a simple premise: the finishing materials of a home deserve the same care as its architecture.",
+    about_p2:"We don't chase every trend. We choose ranges we would specify in our own homes — from breathable lime paints to European wallpapers, solid doors and parquet built to outlast a single renovation.",
+    about_quote:'"Good materials don\'t shout. They just age well."',
+    about_stat1_label:"Years in business", about_stat2_label:"Projects completed", about_stat3_label:"Brands carried",
+    products_eyebrow:"WHAT WE SELL", products_headline:"Four crafts, one address.", products_sub:"Hover any material to see how we work with it.",
+    paint_index:"01 — PAINT", paint_name:"Paint", paint_desc:"Breathable lime and mineral paints, bespoke tinting, and finishes from matte chalk to deep lacquer.", paint_cta:"View paint range",
+    wallpaper_index:"02 — WALLPAPER", wallpaper_name:"Wallpaper", wallpaper_desc:"European wallpapers in small print runs — botanical, plaster-effect and textile weaves for rooms with intent.", wallpaper_cta:"View wallpaper range",
+    doors_index:"03 — DOORS", doors_name:"Doors", doors_desc:"Solid interior doors in oak, walnut and lacquered finishes, fitted with brass and matte-black hardware.", doors_cta:"View door range",
+    parquet_index:"04 — PARQUET", parquet_name:"Parquet", parquet_desc:"Engineered and solid parquet — herringbone, chevron and wide-plank oak, finished to order.", parquet_cta:"View parquet range",
+    why_eyebrow:"WHY CHOOSE US", why_headline:"Five reasons designers call us first.",
+    why_sub:"We're not the biggest hardware store in Baku — we're the one your architect already has saved in their phone.",
+    why1_title:"Curated, not everything", why1_desc:"Every range is chosen and tested — no filler SKUs, no guesswork.",
+    why2_title:"In-house colour studio", why2_desc:"Custom tinting and finish sampling on-site, matched to your light and walls.",
+    why3_title:"One team, four crafts", why3_desc:"Paint, wallpaper, doors and parquet specified together, so finishes actually agree.",
+    why4_title:"Site measurement included", why4_desc:"We measure before you order, so quantities and cuts are right the first time.",
+    why5_title:"Warranty you can call about", why5_desc:"A direct line to the person who sold you the material, for the life of the floor.",
+    brands_eyebrow:"FEATURED BRANDS", brands_headline:"The names behind the finish.",
+    brands_sub:"We import directly and hold exclusive representation for several of these houses in Azerbaijan.",
+    gallery_eyebrow:"INSPIRATION", gallery_headline:"Pairings from real projects.", gallery_sub:"A material rarely works alone. These are combinations our team has specified and delivered.",
+    filter_all:"All", filter_living:"Living Room", filter_bedroom:"Bedroom", filter_entrance:"Entrance", filter_office:"Office",
+    gallery1_caption:"Verde Bosco paint · wide-plank oak parquet · brass door hardware",
+    gallery2_caption:"Plaster-effect wallpaper · lacquered walnut door · chalk white ceiling",
+    gallery3_caption:"Herringbone oak parquet · deep umber paint · matte black hardware",
+    gallery4_caption:"Botanical wallpaper · smoked oak door · matte lacquer trim",
+    gallery5_caption:"Clay pink lime paint · chevron parquet · brass sconce line",
+    gallery6_caption:"Textile-weave wallpaper · white oak parquet · ivory ceiling paint",
+    gallery7_caption:"Charcoal door lacquer · terrazzo-toned wallpaper · brass kick plate",
+    gallery8_caption:"Deep verde paint · wide oak parquet · brushed brass handles",
+    reviews_eyebrow:"CUSTOMER REVIEWS", reviews_headline:"Said by the people who live with our materials.",
+    review1_text:'"They measured twice, ordered once, and the parquet in our living room still looks new three years on."', review1_author:"<b>Leyla M.</b> — Homeowner, Baku",
+    review2_text:'"As an architect I specify their paint on almost every residential project — the colour studio actually understands light."', review2_author:"<b>Rashad G.</b> — Architect",
+    review3_text:'"We changed our minds twice on the wallpaper and they never made us feel difficult for it."', review3_author:"<b>Nigar A.</b> — Homeowner",
+    review4_text:'"The doors alone were worth the drive across the city. Real weight, real hinges, no shortcuts."', review4_author:"<b>Elvin T.</b> — Homeowner",
+    contact_eyebrow:"CONTACT & LOCATION", contact_headline:"Come see the materials in person.",
+    contact_sub:"Photographs never quite capture a finish. Bring your plans, your paint chips, even your doubts.",
+    form_name:"Name", form_phone:"Phone", form_email:"Email", form_interest:"Interested in",
+    form_interest_opt1:"Paint", form_interest_opt2:"Wallpaper", form_interest_opt3:"Doors", form_interest_opt4:"Parquet", form_interest_opt5:"Not sure yet",
+    form_message:"Message", form_submit:"Send message", contact_form_note:"This form is a design preview and isn't connected to a live inbox yet.",
+    form_success_msg:"Thank you — we'll be in touch within one business day.",
+    contact_address_label:"Showroom Address", contact_hours_label:"Opening Hours", contact_hours_value:"Mon–Sat, 10:00–19:00",
+    contact_phone_label:"Phone", contact_email_label:"Email",
+    footer_tagline:"Materials atelier for considered interiors, in Baku since 2007.",
+    footer_col_explore:"Explore", footer_col_materials:"Materials",
+    newsletter_label:"Notes on new arrivals, twice a month, no more.", newsletter_placeholder:"Your email",
+    footer_copyright:"© 2026 Emiliana Parati. All rights reserved.", footer_privacy:"Privacy", footer_terms:"Terms"
+  },
+  ru: {
+    nav_about:"О нас", nav_products:"Продукция", nav_why:"Почему мы", nav_brands:"Бренды", nav_gallery:"Галерея", nav_reviews:"Отзывы", nav_contact:"Контакты", nav_cta:"Связаться с нами",
+    hero_eyebrow:"АТЕЛЬЕ МАТЕРИАЛОВ · БАКУ",
+    hero_headline:'Поверхности, которые <em>определяют</em> дом.',
+    hero_sub:"Emiliana Parati подбирает краску, обои, двери и паркет для тех, кто чувствует разницу между просто хорошим и продуманным. Один адрес, четыре ремесла, единый стандарт.",
+    hero_cta_primary:"Изучить материалы", hero_cta_secondary:"Записаться на консультацию",
+    hero_since:"Работаем с 2007 года<br>Улица Низами, Баку",
+    hero_offer_label:"ЧТО МЫ ПРОДАЁМ",
+    about_eyebrow:"О НАС", about_since_lbl:"Первый магазин открыт в Баку",
+    about_headline:"Почти два десятилетия правильного выбора.",
+    about_p1:"Emiliana Parati открылась в Баку в 2007 году с простой идеей: отделочные материалы дома заслуживают такого же внимания, как и архитектура.",
+    about_p2:"Мы не гонимся за каждым трендом. Мы выбираем линейки, которые сами использовали бы в своём доме — от дышащих известковых красок до европейских обоев, массивных дверей и паркета, рассчитанных не на один ремонт.",
+    about_quote:'«Хорошие материалы не кричат о себе. Они просто красиво стареют.»',
+    about_stat1_label:"Лет на рынке", about_stat2_label:"Завершённых проектов", about_stat3_label:"Представленных брендов",
+    products_eyebrow:"ЧТО МЫ ПРОДАЁМ", products_headline:"Четыре ремесла, один адрес.", products_sub:"Наведите на материал, чтобы увидеть, как мы с ним работаем.",
+    paint_index:"01 — КРАСКА", paint_name:"Краска", paint_desc:"Дышащие известковые и минеральные краски, индивидуальный подбор оттенка, покрытия от матового мела до глубокого лака.", paint_cta:"Смотреть краски",
+    wallpaper_index:"02 — ОБОИ", wallpaper_name:"Обои", wallpaper_desc:"Европейские обои малых тиражей — ботанические, под штукатурку и текстильные фактуры для продуманных интерьеров.", wallpaper_cta:"Смотреть обои",
+    doors_index:"03 — ДВЕРИ", doors_name:"Двери", doors_desc:"Массивные межкомнатные двери из дуба, ореха и лакированных пород с латунной и матово-чёрной фурнитурой.", doors_cta:"Смотреть двери",
+    parquet_index:"04 — ПАРКЕТ", parquet_name:"Паркет", parquet_desc:"Инженерный и массивный паркет — ёлочка, шеврон и широкая дубовая доска, обработка на заказ.", parquet_cta:"Смотреть паркет",
+    why_eyebrow:"ПОЧЕМУ МЫ", why_headline:"Пять причин, по которым дизайнеры звонят нам первыми.",
+    why_sub:"Мы не самый большой строительный магазин Баку — мы тот, чей номер уже сохранён в телефоне вашего архитектора.",
+    why1_title:"Отбор, а не всё подряд", why1_desc:"Каждая линейка выбрана и проверена — никакого лишнего ассортимента и догадок.",
+    why2_title:"Собственная студия колеровки", why2_desc:"Индивидуальная колеровка и образцы прямо в шоу-руме, с учётом вашего света и стен.",
+    why3_title:"Одна команда, четыре ремесла", why3_desc:"Краска, обои, двери и паркет подбираются вместе, чтобы отделка действительно сочеталась.",
+    why4_title:"Замер объекта включён", why4_desc:"Мы замеряем до заказа, чтобы количество и раскрой были верны с первого раза.",
+    why5_title:"Гарантия, по которой можно позвонить", why5_desc:"Прямая связь с тем, кто продал вам материал — на весь срок службы покрытия.",
+    brands_eyebrow:"ПРЕДСТАВЛЕННЫЕ БРЕНДЫ", brands_headline:"Имена за отделкой.",
+    brands_sub:"Мы импортируем напрямую и являемся эксклюзивными представителями ряда этих марок в Азербайджане.",
+    gallery_eyebrow:"ВДОХНОВЕНИЕ", gallery_headline:"Сочетания из реальных проектов.", gallery_sub:"Материал редко работает в одиночку. Вот сочетания, которые подобрала и реализовала наша команда.",
+    filter_all:"Все", filter_living:"Гостиная", filter_bedroom:"Спальня", filter_entrance:"Прихожая", filter_office:"Офис",
+    gallery1_caption:"Краска Verde Bosco · широкая дубовая доска · латунная фурнитура двери",
+    gallery2_caption:"Обои под штукатурку · лакированная ореховая дверь · потолок цвета мела",
+    gallery3_caption:"Дубовый паркет ёлочкой · глубокий охра-коричневый · матово-чёрная фурнитура",
+    gallery4_caption:"Ботанические обои · дымчатый дуб · матовая лаковая отделка",
+    gallery5_caption:"Глиняно-розовая известковая краска · паркет шеврон · латунные бра",
+    gallery6_caption:"Текстильные обои · паркет из белого дуба · потолок цвета слоновой кости",
+    gallery7_caption:"Дверь угольного лака · обои в тонах терраццо · латунная защитная планка",
+    gallery8_caption:"Глубокий зелёный · широкая дубовая доска · матовая латунная фурнитура",
+    reviews_eyebrow:"ОТЗЫВЫ КЛИЕНТОВ", reviews_headline:"Слова тех, кто живёт с нашими материалами.",
+    review1_text:'«Они дважды измерили, один раз заказали — и паркет в нашей гостиной спустя три года всё ещё выглядит как новый.»', review1_author:"<b>Лейла М.</b> — Владелица дома, Баку",
+    review2_text:'«Как архитектор, я почти в каждом жилом проекте указываю их краску — студия колеровки действительно понимает свет.»', review2_author:"<b>Рашад Г.</b> — Архитектор",
+    review3_text:'«Мы дважды меняли решение по обоям, и нас ни разу не заставили почувствовать себя неудобными клиентами.»', review3_author:"<b>Нигяр А.</b> — Владелица дома",
+    review4_text:'«Ради одних дверей стоило ехать через весь город. Настоящий вес, настоящие петли, никаких компромиссов.»', review4_author:"<b>Эльвин Т.</b> — Владелец дома",
+    contact_eyebrow:"КОНТАКТЫ И АДРЕС", contact_headline:"Приходите увидеть материалы вживую.",
+    contact_sub:"Фотографии никогда не передают отделку до конца. Приносите свои планы, образцы краски и даже сомнения.",
+    form_name:"Имя", form_phone:"Телефон", form_email:"Email", form_interest:"Интересует",
+    form_interest_opt1:"Краска", form_interest_opt2:"Обои", form_interest_opt3:"Двери", form_interest_opt4:"Паркет", form_interest_opt5:"Пока не знаю",
+    form_message:"Сообщение", form_submit:"Отправить сообщение", contact_form_note:"Эта форма — дизайн-превью и пока не подключена к реальной почте.",
+    form_success_msg:"Спасибо — мы свяжемся с вами в течение одного рабочего дня.",
+    contact_address_label:"Адрес шоу-рума", contact_hours_label:"Часы работы", contact_hours_value:"Пн–Сб, 10:00–19:00",
+    contact_phone_label:"Телефон", contact_email_label:"Email",
+    footer_tagline:"Ателье материалов для продуманных интерьеров, в Баку с 2007 года.",
+    footer_col_explore:"Навигация", footer_col_materials:"Материалы",
+    newsletter_label:"Заметки о новинках, дважды в месяц, не чаще.", newsletter_placeholder:"Ваш email",
+    footer_copyright:"© 2026 Emiliana Parati. Все права защищены.", footer_privacy:"Конфиденциальность", footer_terms:"Условия"
+  }
+};
+
+let currentLang = 'az';
+
+function applyLanguage(lang){
+  currentLang = lang;
+  document.documentElement.lang = lang;
+  const dict = translations[lang];
+  document.querySelectorAll('[data-i18n]').forEach(el=>{
+    const key = el.getAttribute('data-i18n');
+    if(dict[key] !== undefined) el.textContent = dict[key];
+  });
+  document.querySelectorAll('[data-i18n-html]').forEach(el=>{
+    const key = el.getAttribute('data-i18n-html');
+    if(dict[key] !== undefined) el.innerHTML = dict[key];
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach(el=>{
+    const key = el.getAttribute('data-i18n-placeholder');
+    if(dict[key] !== undefined) el.placeholder = dict[key];
+  });
+  document.querySelectorAll('.lang-switch button').forEach(btn=>{
+    btn.classList.toggle('active', btn.dataset.lang === lang);
+  });
+  const idx = ['az','en','ru'].indexOf(lang);
+  const pill = document.getElementById('langPill');
+  if(pill) pill.style.transform = `translateX(${idx*34}px)`;
+}
+
+document.querySelectorAll('.lang-switch button').forEach(btn=>{
+  btn.addEventListener('click', ()=> applyLanguage(btn.dataset.lang));
+});
+
+/* ============================= NAV SCROLL + MOBILE MENU ============================= */
+const navEl = document.getElementById('siteNav');
+window.addEventListener('scroll', ()=>{
+  navEl.classList.toggle('scrolled', window.scrollY > 30);
+}, {passive:true});
+
+const menuToggle = document.getElementById('menuToggle');
+menuToggle.addEventListener('click', ()=>{
+  const open = navEl.classList.toggle('menu-open');
+  menuToggle.setAttribute('aria-expanded', open ? 'true':'false');
+});
+document.querySelectorAll('.nav-links a').forEach(a=>{
+  a.addEventListener('click', ()=> navEl.classList.remove('menu-open'));
+});
+
+/* ============================= SCROLL REVEAL ============================= */
+const revealEls = document.querySelectorAll('.reveal, .reveal-stagger');
+const io = new IntersectionObserver((entries)=>{
+  entries.forEach(entry=>{
+    if(entry.isIntersecting){
+      entry.target.classList.add('is-visible');
+      io.unobserve(entry.target);
+    }
+  });
+}, {threshold:0.15, rootMargin:'0px 0px -60px 0px'});
+revealEls.forEach(el=> io.observe(el));
+
+/* ============================= GALLERY FILTER ============================= */
+const filterBtns = document.querySelectorAll('.filter-btn');
+const tiles = document.querySelectorAll('.g-tile');
+filterBtns.forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    filterBtns.forEach(b=>b.classList.remove('active'));
+    btn.classList.add('active');
+    const f = btn.dataset.filter;
+    tiles.forEach(t=>{
+      t.classList.toggle('hide', f !== 'all' && t.dataset.room !== f);
+    });
+  });
+});
+
+/* ============================= REVIEWS CAROUSEL ============================= */
+const slides = document.querySelectorAll('.rev-slide');
+const dotsWrap = document.getElementById('revDots');
+let revIndex = 0, revTimer;
+
+slides.forEach((_, i)=>{
+  const d = document.createElement('button');
+  if(i===0) d.classList.add('active');
+  d.addEventListener('click', ()=> goToSlide(i));
+  dotsWrap.appendChild(d);
+});
+const dots = dotsWrap.querySelectorAll('button');
+
+function goToSlide(i){
+  slides[revIndex].classList.remove('active');
+  dots[revIndex].classList.remove('active');
+  revIndex = (i + slides.length) % slides.length;
+  slides[revIndex].classList.add('active');
+  dots[revIndex].classList.add('active');
+  resetRevTimer();
+}
+document.getElementById('revPrev').addEventListener('click', ()=> goToSlide(revIndex-1));
+document.getElementById('revNext').addEventListener('click', ()=> goToSlide(revIndex+1));
+function resetRevTimer(){
+  clearInterval(revTimer);
+  revTimer = setInterval(()=> goToSlide(revIndex+1), 6500);
+}
+resetRevTimer();
+document.querySelector('.reviews-band').addEventListener('mouseenter', ()=> clearInterval(revTimer));
+document.querySelector('.reviews-band').addEventListener('mouseleave', resetRevTimer);
+
+/* ============================= FORMS ============================= */
+document.getElementById('contactForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  document.getElementById('formSuccess').classList.add('show');
+  this.reset();
+});
+document.getElementById('newsletterForm').addEventListener('submit', function(e){
+  e.preventDefault();
+  const btn = this.querySelector('button');
+  btn.style.color = 'var(--brass-light)';
+  this.reset();
+});
+
+/* init */
+applyLanguage('az');
+</script>
+
+<script src="loader.js"></script>
+</body>
+</html>

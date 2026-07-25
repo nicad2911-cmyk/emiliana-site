@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "logo": "logo.png",
+    "phone": "+994 12 555 04 04",
+    "email": "hello@emilianaparati.az",
+    "address": "28 Nizami Street, Baku, Azerbaijan",
+    "hours": { "az": "B.e–Şənbə, 10:00–19:00", "en": "Mon–Sat, 10:00–19:00", "ru": "Пн–Сб, 10:00–19:00" }
+  },
+  "hero": {
+    "images": [
+      "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=900&q=80"
+    ],
+    "eyebrow": { "az": "MATERİALLAR ATELİYESİ · BAKI", "en": "MATERIALS ATELIER · BAKU", "ru": "АТЕЛЬЕ МАТЕРИАЛОВ · БАКУ" },
+    "headline": { "az": "Bir evi <em>fərqləndirən</em> səthlər.", "en": "Surfaces that <em>define</em> a home.", "ru": "Поверхности, которые <em>определяют</em> дом." },
+    "sub": {
+      "az": "Emiliana Parati fərqi hiss edən insanlar üçün boya, divar kağızı, qapı və parket seçir. Bir ünvan, dörd sənət, tək standart.",
+      "en": "Emiliana Parati curates paint, wallpaper, doors and parquet for people who notice the difference between good and considered. One address, four crafts, one standard.",
+      "ru": "Emiliana Parati подбирает краску, обои, двери и паркет для тех, кто чувствует разницу между просто хорошим и продуманным. Один адрес, четыре ремесла, единый стандарт."
+    }
+  },
+  "about": {
+    "headline": { "az": "Düzgün seçim etməyin təxminən iyirmi ili.", "en": "Nearly two decades of choosing well.", "ru": "Почти два десятилетия правильного выбора." },
+    "p1": {
+      "az": "Emiliana Parati 2007-ci ildə Bakıda sadə bir prinsiplə açıldı: evin bitirmə materialları memarlıq qədər diqqətə layiqdir.",
+      "en": "Emiliana Parati opened in Baku in 2007 with a simple premise: the finishing materials of a home deserve the same care as its architecture.",
+      "ru": "Emiliana Parati открылась в Баку в 2007 году с простой идеей: отделочные материалы дома заслуживают такого же внимания, как и архитектура."
+    },
+    "p2": {
+      "az": "Biz hər trendin ardınca getmirik. Öz evimizdə seçəcəyimiz çeşidləri seçirik — nəfəs alan əhəngli boyalardan Avropa divar kağızlarına, bir təmir dövründən çox davam edən möhkəm qapı və parketlərə qədər.",
+      "en": "We don't chase every trend. We choose ranges we would specify in our own homes — from breathable lime paints to European wallpapers, solid doors and parquet built to outlast a single renovation.",
+      "ru": "Мы не гонимся за каждым трендом. Мы выбираем линейки, которые сами использовали бы в своём доме — от дышащих известковых красок до европейских обоев, массивных дверей и паркета, рассчитанных не на один ремонт."
+    },
+    "quote": {
+      "az": "\"Yaxşı materiallar qışqırmır. Onlar sadəcə gözəl köhnəlir.\"",
+      "en": "\"Good materials don't shout. They just age well.\"",
+      "ru": "«Хорошие материалы не кричат о себе. Они просто красиво стареют.»"
+    },
+    "stats": [
+      { "n": "19", "label": { "az": "Fəaliyyət ili", "en": "Years in business", "ru": "Лет на рынке" } },
+      { "n": "1,200+", "label": { "az": "Tamamlanmış layihə", "en": "Projects completed", "ru": "Завершённых проектов" } },
+      { "n": "20+", "label": { "az": "Təmsil olunan brend", "en": "Brands carried", "ru": "Представленных брендов" } }
+    ]
+  },
+  "products": [
+    { "key": "paint", "name": { "az": "Boya", "en": "Paint", "ru": "Краска" }, "desc": { "az": "Nəfəs alan əhəngli və mineral boyalar, fərdi çalar seçimi, mat təbaşirdən dərin lak parıltısına qədər örtüklər.", "en": "Breathable lime and mineral paints, bespoke tinting, and finishes from matte chalk to deep lacquer.", "ru": "Дышащие известковые и минеральные краски, индивидуальный подбор оттенка, покрытия от матового мела до глубокого лака." } },
+    { "key": "wallpaper", "name": { "az": "Divar kağızı", "en": "Wallpaper", "ru": "Обои" }, "desc": { "az": "Kiçik tirajlı Avropa divar kağızları — botanik, suvaq effektli və toxuma naxışlı, məqsədli otaqlar üçün.", "en": "European wallpapers in small print runs — botanical, plaster-effect and textile weaves for rooms with intent.", "ru": "Европейские обои малых тиражей — ботанические, под штукатурку и текстильные фактуры для продуманных интерьеров." } },
+    { "key": "doors", "name": { "az": "Qapılar", "en": "Doors", "ru": "Двери" }, "desc": { "az": "Palıd, qoz ağacı və lak örtüklü massiv interyer qapıları, bürünc və mat qara aksesuarlarla.", "en": "Solid interior doors in oak, walnut and lacquered finishes, fitted with brass and matte-black hardware.", "ru": "Массивные межкомнатные двери из дуба, ореха и лакированных пород с латунной и матово-чёрной фурнитурой." } },
+    { "key": "parquet", "name": { "az": "Parket", "en": "Parquet", "ru": "Паркет" }, "desc": { "az": "Mühəndis və massiv parket — balıqqulağı, şevron və geniş lövhəli palıd, sifarişə uyğun emal olunur.", "en": "Engineered and solid parquet — herringbone, chevron and wide-plank oak, finished to order.", "ru": "Инженерный и массивный паркет — ёлочка, шеврон и широкая дубовая доска, обработка на заказ." } }
+  ],
+  "why": [
+    { "title": { "az": "Hər şey yox, seçilmiş", "en": "Curated, not everything", "ru": "Отбор, а не всё подряд" }, "desc": { "az": "Hər çeşid seçilir və sınaqdan keçirilir — artıq mal, təxmin yoxdur.", "en": "Every range is chosen and tested — no filler SKUs, no guesswork.", "ru": "Каждая линейка выбрана и проверена — никакого лишнего ассортимента и догадок." } },
+    { "title": { "az": "Öz rəng studiyamız", "en": "In-house colour studio", "ru": "Собственная студия колеровки" }, "desc": { "az": "Sizin işıq və divarlarınıza uyğun fərdi çalar və nümunə hazırlığı yerində.", "en": "Custom tinting and finish sampling on-site, matched to your light and walls.", "ru": "Индивидуальная колеровка и образцы прямо в шоу-руме, с учётом вашего света и стен." } },
+    { "title": { "az": "Bir komanda, dörd sənət", "en": "One team, four crafts", "ru": "Одна команда, четыре ремесла" }, "desc": { "az": "Boya, divar kağızı, qapı və parket birgə seçilir — örtüklər bir-biri ilə həqiqətən uzlaşır.", "en": "Paint, wallpaper, doors and parquet specified together, so finishes actually agree.", "ru": "Краска, обои, двери и паркет подбираются вместе, чтобы отделка действительно сочеталась." } },
+    { "title": { "az": "Ölçü xidməti daxildir", "en": "Site measurement included", "ru": "Замер объекта включён" }, "desc": { "az": "Sifarişdən əvvəl ölçürük — miqdar və kəsim ilk dəfədən düzgün olur.", "en": "We measure before you order, so quantities and cuts are right the first time.", "ru": "Мы замеряем до заказа, чтобы количество и раскрой были верны с первого раза." } },
+    { "title": { "az": "Zəng edə biləcəyiniz zəmanət", "en": "Warranty you can call about", "ru": "Гарантия, по которой можно позвонить" }, "desc": { "az": "Materialı sizə satan şəxslə birbaşa əlaqə — döşəmənin bütün ömrü boyu.", "en": "A direct line to the person who sold you the material, for the life of the floor.", "ru": "Прямая связь с тем, кто продал вам материал — на весь срок службы покрытия." } }
+  ],
+  "brands": [
+    { "name": "Marchetti Colore", "category": "paint" },
+    { "name": "Calce Viva", "category": "paint" },
+    { "name": "Casa Tessuto", "category": "wallpaper" },
+    { "name": "Botanica Carta", "category": "wallpaper" },
+    { "name": "Portello Milano", "category": "doors" },
+    { "name": "Legno & Ferro", "category": "doors" },
+    { "name": "Rovere Atelier", "category": "parquet" },
+    { "name": "Tavole del Nord", "category": "parquet" }
+  ],
+  "gallery": [
+    { "image": "", "room": "living", "caption": { "az": "Verde Bosco boyası · geniş lövhəli palıd parket · bürünc qapı aksesuarı", "en": "Verde Bosco paint · wide-plank oak parquet · brass door hardware", "ru": "Краска Verde Bosco · широкая дубовая доска · латунная фурнитура двери" } },
+    { "image": "", "room": "bedroom", "caption": { "az": "Suvaq effektli divar kağızı · lak qoz qapı · təbaşir ağ tavan", "en": "Plaster-effect wallpaper · lacquered walnut door · chalk white ceiling", "ru": "Обои под штукатурку · лакированная ореховая дверь · потолок цвета мела" } },
+    { "image": "", "room": "entrance", "caption": { "az": "Balıqqulağı naxışlı palıd parket · tünd kəhrəba boya · mat qara aksesuar", "en": "Herringbone oak parquet · deep umber paint · matte black hardware", "ru": "Дубовый паркет ёлочкой · глубокий охра-коричневый · матово-чёрная фурнитура" } },
+    { "image": "", "room": "office", "caption": { "az": "Botanik divar kağızı · tüstülü palıd qapı · mat lak haşiyə", "en": "Botanical wallpaper · smoked oak door · matte lacquer trim", "ru": "Ботанические обои · дымчатый дуб · матовая лаковая отделка" } },
+    { "image": "", "room": "living", "caption": { "az": "Gil-çəhrayı əhəng boya · şevron parket · bürünc divar çıraq xətti", "en": "Clay pink lime paint · chevron parquet · brass sconce line", "ru": "Глиняно-розовая известковая краска · паркет шеврон · латунные бра" } },
+    { "image": "", "room": "bedroom", "caption": { "az": "Toxuma naxışlı divar kağızı · ağ palıd parket · fil sümüyü tavan boyası", "en": "Textile-weave wallpaper · white oak parquet · ivory ceiling paint", "ru": "Текстильные обои · паркет из белого дуба · потолок цвета слоновой кости" } },
+    { "image": "", "room": "entrance", "caption": { "az": "Kömür rəngli lak qapı · terrazzo tonlu divar kağızı · bürünc təkan lövhəsi", "en": "Charcoal door lacquer · terrazzo-toned wallpaper · brass kick plate", "ru": "Дверь угольного лака · обои в тонах терраццо · латунная защитная планка" } },
+    { "image": "", "room": "office", "caption": { "az": "Dərin yaşıl boya · geniş palıd parket · şotkalanmış bürünc dəstək", "en": "Deep verde paint · wide oak parquet · brushed brass handles", "ru": "Глубокий зелёный · широкая дубовая доска · матовая латунная фурнитура" } }
+  ],
+  "reviews": [
+    { "text": { "az": "\"İki dəfə ölçdülər, bir dəfə sifariş verdilər və qonaq otağımızdakı parket üç ildən sonra da yeni görünür.\"", "en": "\"They measured twice, ordered once, and the parquet in our living room still looks new three years on.\"", "ru": "«Они дважды измерили, один раз заказали — и паркет в нашей гостиной спустя три года всё ещё выглядит как новый.»" }, "author": { "az": "Leyla M. — Ev sahibi, Bakı", "en": "Leyla M. — Homeowner, Baku", "ru": "Лейла М. — Владелица дома, Баку" } },
+    { "text": { "az": "\"Memar olaraq demək olar ki, hər yaşayış layihəsində onların boyasını seçirəm — rəng studiyası işığı həqiqətən anlayır.\"", "en": "\"As an architect I specify their paint on almost every residential project — the colour studio actually understands light.\"", "ru": "«Как архитектор, я почти в каждом жилом проекте указываю их краску — студия колеровки действительно понимает свет.»" }, "author": { "az": "Rəşad Q. — Memar", "en": "Rashad G. — Architect", "ru": "Рашад Г. — Архитектор" } },
+    { "text": { "az": "\"Divar kağızı ilə bağlı fikrimizi iki dəfə dəyişdik və onlar bizi heç vaxt çətin müştəri kimi hiss etdirmədilər.\"", "en": "\"We changed our minds twice on the wallpaper and they never made us feel difficult for it.\"", "ru": "«Мы дважды меняли решение по обоям, и нас ни разу не заставили почувствовать себя неудобными клиентами.»" }, "author": { "az": "Nigar Ə. — Ev sahibi", "en": "Nigar A. — Homeowner", "ru": "Нигяр А. — Владелица дома" } },
+    { "text": { "az": "\"Təkcə qapılar üçün şəhərin o başından gəlməyə dəyərdi. Əsl çəki, əsl mentaşa, heç bir qısayol yoxdur.\"", "en": "\"The doors alone were worth the drive across the city. Real weight, real hinges, no shortcuts.\"", "ru": "«Ради одних дверей стоило ехать через весь город. Настоящий вес, настоящие петли, никаких компромиссов.»" }, "author": { "az": "Elvin T. — Ev sahibi", "en": "Elvin T. — Homeowner", "ru": "Эльвин Т. — Владелец дома" } }
+  ],
+  "footer": {
+    "tagline": { "az": "2007-ci ildən Bakıda, düşünülmüş interyerlər üçün materiallar ateliyesi.", "en": "Materials atelier for considered interiors, in Baku since 2007.", "ru": "Ателье материалов для продуманных интерьеров, в Баку с 2007 года." }
+  }
+}
