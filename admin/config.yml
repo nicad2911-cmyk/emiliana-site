@@ -2,6 +2,7 @@ backend:
   name: github
   repo: nicad2911-cmyk/emiliana-site
   branch: main
+  site_domain: nicad2911-cmyk.github.io
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
