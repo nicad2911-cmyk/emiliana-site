@@ -2,8 +2,6 @@ backend:
   name: github
   repo: nicad2911-cmyk/emiliana-site
   branch: main
-  base_url: https://decap-cms-oauth-backend.vercel.app
-  auth_endpoint: /auth
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
